@@ -1,0 +1,24 @@
+.wrap {
+    display: inline-flex;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.link:hover {
+    color: whitesmoke;
+}
+
+.size {
+    color: #7C7F88;
+    margin-left: 20px;
+}
+
+.img {
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
+}

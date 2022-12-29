@@ -1,0 +1,15 @@
+.main {
+    max-width: 1200px;
+    margin: 50px auto auto auto;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.title {
+    font-size: 80px;
+    color: #E8E9ED;
+}
+
+.button {
+    margin-top: 40px;
+}

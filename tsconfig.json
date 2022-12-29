@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "ESNext",
+      "target": "ESNext",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "lib": [
+        "ESNext",
+        "dom"
+      ],
+    },
+    "include": ["src/index.ts", "src/typings.d.ts"],
+  }

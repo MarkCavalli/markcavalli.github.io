@@ -1,0 +1,15 @@
+.main {
+    margin-top: 5px;
+}
+
+.p {
+    text-indent: 2em;
+}
+
+.link {
+    color: inherit;
+    transition: 0.2s;
+}
+.link:hover {
+    color: white;
+}
