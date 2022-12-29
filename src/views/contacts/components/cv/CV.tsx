@@ -8,7 +8,7 @@ export default () => {
     <span className={styles.wrap}>
       <img src={Attachment} className={styles.img}></img>
       <a href={cvFile} target="blank" className={styles.link}>aleksei-osinnii-cv.pdf</a>
-      <span className={styles.size}>(354.43 KB)</span>
+      <span className={styles.size}>(701 KB)</span>
     </span>
   );
 };
