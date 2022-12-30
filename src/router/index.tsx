@@ -13,6 +13,12 @@ const router = createHashRouter([
   {
     path: "/experience",
     element: <Layout><Experience /></Layout>,
+    children: [
+      {
+        path: ':type',
+        element: <Layout><Experience /></Layout>
+      }
+    ]
   },
   {
     path: "/contacts",

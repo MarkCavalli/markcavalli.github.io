@@ -6,7 +6,6 @@
     padding: 25px;
     border-radius: 5px;
     position: relative;
-    max-width: 800px;
 }
 
 .titleBlock {
@@ -42,4 +41,14 @@
 .about {
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media (max-width: 768px) {
+    .date {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 12px;
+    }
 }

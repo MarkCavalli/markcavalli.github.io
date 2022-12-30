@@ -6,6 +6,30 @@ import GamedevStartup from './components/jobDescriptions/gamedevStartup/GamedevS
 import OnMoon from './components/jobDescriptions/onMoon/OnMoon'
 import PSB from './components/jobDescriptions/psb/PSB';
 
+export const enum JobFilter {
+    All = 'all',
+    Production = 'production',
+    Pet = 'pet'
+}
+
+export const filterMenu = [
+    {
+        name: 'All',
+        type: JobFilter.All,
+        route: `/experience/${JobFilter.All}`,
+    },
+    {
+        name: 'Production',
+        type: JobFilter.Production,
+        route: `/experience/${JobFilter.Production}`,
+    },
+    {
+        name: 'Pet-Projects',
+        type: JobFilter.Pet,
+        route: `/experience/${JobFilter.Pet}`,
+    }
+]
+
 export const jobs: WorkItemDataExtended[] = [
     {
         type: JobType.Work,
@@ -16,7 +40,7 @@ export const jobs: WorkItemDataExtended[] = [
             month: 11,
         },
         toDate: {
-            year: 2024,
+            year: 2042,
             month: 1,
         },
         tags: ['html', 'scss', 'typescript', 'angular'],
@@ -81,6 +105,97 @@ export const jobs: WorkItemDataExtended[] = [
         },
         tags: ['html', 'css', 'javascript', 'jquery', 'vue'],
         desc: <BKC />
+    },
+    {
+        type: JobType.Pet,
+        title: 'Trading bot',
+        fromDate: {
+            year: 2022,
+            month: 11,
+        },
+        toDate: {
+            year: 2022,
+            month: 12,
+        },
+        tags: ['typescript', 'websockets', 'nodejs'],
+    },
+    {
+        type: JobType.Pet,
+        title: 'Backtesting trade strategies',
+        fromDate: {
+            year: 2022,
+            month: 6,
+        },
+        toDate: {
+            year: 2022,
+            month: 7,
+        },
+        tags: ['typescript', 'nodejs', 'react', 'nodejs'],
+    },
+    {
+        type: JobType.Pet,
+        title: 'Browser game bot',
+        fromDate: {
+            year: 2021,
+            month: 4,
+        },
+        toDate: {
+            year: 2021,
+            month: 10,
+        },
+        tags: ['html', 'scss', 'javascript', 'typescript', 'docker', 'kafka', 'microservices', 'nodejs', 'postgres', 'sql', 'chrome-extension'],
+    },
+    {
+        type: JobType.Pet,
+        title: 'Mentoring',
+        fromDate: {
+            year: 2020,
+            month: 8,
+        },
+        toDate: {
+            year: 2041,
+            month: 10,
+        },
+        tags: [],
+    },
+    {
+        type: JobType.Pet,
+        title: 'Messenger',
+        fromDate: {
+            year: 2019,
+            month: 12,
+        },
+        toDate: {
+            year: 2020,
+            month: 4,
+        },
+        tags: ['html', 'scss', 'typescript', 'vue', 'vuex', 'vuerouter', 'nodejs', 'mysql', 'sql', 'cordova'],
+    },
+    {
+        type: JobType.Pet,
+        title: 'GTA 5 Role Play Servers',
+        fromDate: {
+            year: 2017,
+            month: 6,
+        },
+        toDate: {
+            year: 2019,
+            month: 4,
+        },
+        tags: ['html', 'scss', 'javascript', 'typescript', 'vue', 'vuex', 'vuerouter', 'nodejs', 'mysql', 'sql'],
+    },
+    {
+        type: JobType.Pet,
+        title: 'First website',
+        fromDate: {
+            year: 2010,
+            month: 3,
+        },
+        toDate: {
+            year: 2012,
+            month: 9,
+        },
+        tags: ['html', 'css', 'javascript', 'jquery'],
     },
 ];
 

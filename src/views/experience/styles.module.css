@@ -1,15 +1,11 @@
 .main {
-    max-width: 1200px;
-    margin: 50px auto auto auto;
+    max-width: 850px;
     font-size: 20px;
-    padding-bottom: 50px;
+    padding: 15px 15px 50px 15px;
+    margin: auto;
 }
 
-.title {
-    font-size: 80px;
-    color: #E8E9ED;
-}
-
-.button {
-    margin-top: 40px;
+.menu {
+    display: flex;
+    margin: auto;
 }

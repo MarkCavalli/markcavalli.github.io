@@ -22,7 +22,7 @@ export default (props: WorkItemProps) => {
                 <h4 className={styles.title}>{job.title}</h4>
                 <div className={styles.date}>{getDate(job.fromDate)} - {getDate(job.toDate)}</div>
             </div>
-            <h5 className={styles.position}>{job.position}</h5>
+            {job.position && <h5 className={styles.position}>{job.position}</h5>}
             <div className={styles.tags}>
                 {job.tags.map((d, i) => (
                     <Tag key={i} color={tagColor.get(d)}>{d}</Tag>
