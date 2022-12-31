@@ -6,6 +6,8 @@ import GamedevStartup from './components/jobDescriptions/gamedevStartup/GamedevS
 import OnMoon from './components/jobDescriptions/onMoon/OnMoon'
 import PSB from './components/jobDescriptions/psb/PSB';
 
+import CSPortal from './components/jobDescriptions/csPortal/CSPortal';
+
 export const enum JobFilter {
     All = 'all',
     Production = 'production',
@@ -156,7 +158,7 @@ export const jobs: WorkItemDataExtended[] = [
             year: 2041,
             month: 10,
         },
-        tags: [],
+        tags: ['html', 'css', 'javascript', 'nodejs', 'typescript', 'react', 'vue'],
     },
     {
         type: JobType.Pet,
@@ -186,7 +188,7 @@ export const jobs: WorkItemDataExtended[] = [
     },
     {
         type: JobType.Pet,
-        title: 'First website',
+        title: 'Counter Strike 1.6 Gaming Portal',
         fromDate: {
             year: 2010,
             month: 3,
@@ -196,6 +198,7 @@ export const jobs: WorkItemDataExtended[] = [
             month: 9,
         },
         tags: ['html', 'css', 'javascript', 'jquery'],
+        desc: <CSPortal />
     },
 ];
 
