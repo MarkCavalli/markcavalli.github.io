@@ -6,6 +6,8 @@ import GamedevStartup from './components/jobDescriptions/gamedevStartup/GamedevS
 import OnMoon from './components/jobDescriptions/onMoon/OnMoon'
 import PSB from './components/jobDescriptions/psb/PSB';
 
+import Messenger from './components/jobDescriptions/messenger/Messenger';
+import RageServer from './components/jobDescriptions/rageServer/RageServer';
 import CSPortal from './components/jobDescriptions/csPortal/CSPortal';
 
 export const enum JobFilter {
@@ -172,10 +174,11 @@ export const jobs: WorkItemDataExtended[] = [
             month: 4,
         },
         tags: ['html', 'scss', 'typescript', 'vue', 'vuex', 'vuerouter', 'nodejs', 'mysql', 'sql', 'cordova'],
+        desc: <Messenger />
     },
     {
         type: JobType.Pet,
-        title: 'GTA 5 Role Play Servers',
+        title: 'Grand Theft Auto 5 Role Play Server',
         fromDate: {
             year: 2017,
             month: 6,
@@ -185,6 +188,7 @@ export const jobs: WorkItemDataExtended[] = [
             month: 4,
         },
         tags: ['html', 'scss', 'javascript', 'typescript', 'vue', 'vuex', 'vuerouter', 'nodejs', 'mysql', 'sql'],
+        desc: <RageServer />
     },
     {
         type: JobType.Pet,

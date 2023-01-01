@@ -1,11 +1,3 @@
-.main {
-    margin-top: 5px;
-}
-
-.p {
-    text-indent: 2em;
-}
-
 .pre {
     text-indent: 0;
     display: block;
@@ -30,12 +22,4 @@
 .answer:hover {
     background-color: transparent;
     color: inherit;
-}
-
-.link {
-    color: inherit;
-    transition: 0.2s;
-}
-.link:hover {
-    color: white;
 }

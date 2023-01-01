@@ -13,3 +13,8 @@
 .link:hover {
     color: white;
 }
+
+.ul {
+    text-indent: 0em;
+    margin-left: 2em;
+}

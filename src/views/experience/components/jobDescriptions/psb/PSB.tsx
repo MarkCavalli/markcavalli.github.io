@@ -1,5 +1,6 @@
 import React from "react";
-import styles from './styles.module.css';
+import styles from '../styles.module.css';
+import stylesLocal from './styles.module.css';
 
 export default () => {
     return (
@@ -21,11 +22,11 @@ export default () => {
             <div className={styles.p}>
                 In general, <b>Angular</b> is a more complex framework and it is easier to make a mistake in it, because it does not use virtual-dom like <b>vue</b> or <b>react</b>.
                 Because of this, I had a funny situation, when the code is written without errors, but there is a bug. Guess what will be equal input.value after component rendering:
-                <pre className={styles.pre}>
+                <pre className={stylesLocal.pre}>
                     <code>const value = 900;</code>
                     <code>{'<input type="range" [value]="value" min="0" max="1000" />'}</code>
                 </pre>
-                Answer: <span className={styles.answer}>100</span>
+                Answer: <span className={stylesLocal.answer}>100</span>
             </div>
         </div>
     )
