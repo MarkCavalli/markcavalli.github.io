@@ -6,6 +6,9 @@ import GamedevStartup from './components/jobDescriptions/gamedevStartup/GamedevS
 import OnMoon from './components/jobDescriptions/onMoon/OnMoon'
 import PSB from './components/jobDescriptions/psb/PSB';
 
+import Backtesting from './components/jobDescriptions/backtesting/Backtesting';
+import SocialFeed from './components/jobDescriptions/socialFeed/SocialFeed';
+import Mentoring from './components/jobDescriptions/mentoring/Mentoring';
 import Messenger from './components/jobDescriptions/messenger/Messenger';
 import RageServer from './components/jobDescriptions/rageServer/RageServer';
 import CSPortal from './components/jobDescriptions/csPortal/CSPortal';
@@ -112,55 +115,45 @@ export const jobs: WorkItemDataExtended[] = [
     },
     {
         type: JobType.Pet,
-        title: 'Trading bot',
-        fromDate: {
-            year: 2022,
-            month: 11,
-        },
-        toDate: {
-            year: 2022,
-            month: 12,
-        },
-        tags: ['typescript', 'websockets', 'nodejs'],
-    },
-    {
-        type: JobType.Pet,
-        title: 'Backtesting trade strategies',
+        title: 'Backtesting trade strategies and trading bot',
         fromDate: {
             year: 2022,
             month: 6,
         },
         toDate: {
-            year: 2022,
+            year: 2042,
             month: 7,
         },
-        tags: ['typescript', 'nodejs', 'react', 'nodejs'],
+        tags: ['typescript', 'nodejs', 'react', 'websockets',],
+        desc: <Backtesting />
     },
     {
         type: JobType.Pet,
-        title: 'Browser game bot',
+        title: 'Social Feed',
         fromDate: {
             year: 2021,
-            month: 4,
+            month: 7,
         },
         toDate: {
-            year: 2021,
-            month: 10,
+            year: 2022,
+            month: 2,
         },
-        tags: ['html', 'scss', 'javascript', 'typescript', 'docker', 'kafka', 'microservices', 'nodejs', 'postgres', 'sql', 'chrome-extension'],
+        tags: ['html', 'scss', 'javascript', 'typescript', 'docker', 'kafka', 'microservices', 'nodejs', 'postgres', 'sql'],
+        desc: <SocialFeed />
     },
     {
         type: JobType.Pet,
         title: 'Mentoring',
         fromDate: {
             year: 2020,
-            month: 8,
+            month: 12,
         },
         toDate: {
             year: 2041,
             month: 10,
         },
         tags: ['html', 'css', 'javascript', 'nodejs', 'typescript', 'react', 'vue'],
+        desc: <Mentoring />
     },
     {
         type: JobType.Pet,
