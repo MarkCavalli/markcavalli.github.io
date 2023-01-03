@@ -12,7 +12,7 @@ export default () => {
             </p>
             <p className={styles.p}>
                 Meet - <a href="//github.com/MarkCavalli/rageserver" target="_blank" className={styles.link}>rageserver</a>. The server part was in javascript, assembled into a single file
-                using webpack, mysql database, frontend was inside html pages with vue connected via script tag. I was surprised how many people
+                using webpack, mysql database, front-end was inside html pages with vue connected via a script tag. I was surprised how many people
                 started supporting me. They inspired me to add a language selection, and the project was translated into several languages by the community:
                 English, Russian, German, Brazilian, Chinese, Simplified Chinese, Czech. After a while I learned about typescript, as well as about vue single-page application.
             </p>

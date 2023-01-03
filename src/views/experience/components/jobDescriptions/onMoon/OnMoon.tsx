@@ -12,10 +12,10 @@ export default () => {
                 After I left the startup, I published my resume and started looking for a job. As it turned out, the guys from the OnMoon company started developing a couple of months ago
                 their GTA 5 Role Play server project based on my open source <a href="//github.com/MarkCavalli/rageserver " target="_blank" className={styles.link}>RAGE Server</a>.
                 After seeing my resume, they invited me to join. As a result, we have the following stack:
-                server part on <b>nodejs</b> and <b>typescript</b> with database <b>postgesql</b>, frontend on <b>vue, vuex, vuerouter</b>.
+                server part on <b>nodejs</b> and <b>typescript</b> with database <b>postgesql</b>, front-end on <b>vue, vuex, vuerouter</b>.
             </p>
             <p className={styles.p}>
-                I was the only frontend developer in the team, so the whole frontend was on me. When there were no tasks, I switched to the backend. My main improvements were the task to display
+                I was the only front-end developer in the team, so the whole front-end was on me. When there were no tasks, I switched to the back-end. My main improvements were the task to display
                 The UI is the same on all screen resolutions (from 480p to 4k) and implement support for sprites with icons. It was easy to do because I had already come up with this technique in the past.
                 In general, the front was stable and there were no problems with it.
             </p>

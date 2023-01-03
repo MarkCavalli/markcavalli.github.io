@@ -13,7 +13,7 @@ export default () => {
                 So we started the development. The main goal of the task was time - we need to do it as quickly as possible. It also affected the selected stack - my team leader found a mini-project,
                 written in <b>javascript</b> with a database <b>mongodb</b> and decided not to waste time thinking through the architecture,
                 although I already had a ready-made <a href="//github.com/MarkCavalli/rage-server-start-template" target="_blank" className={styles.link}>template</a> using <b>typescript</b> and <b>mysql</b>.
-                The backend was written on <b>nodejs</b>, as a frontend we used my previous work with <b>vue, vue, vuerouter</b>.
+                The back-end was written on <b>nodejs</b>, as a front-end we used my previous work with <b>vue, vue, vuerouter</b>.
             </p>
             <p className={styles.p}>
                 It was a very big step for me as an organization of the process. We worked in <b>jira</b> on <b>scrum</b> 2 week sprints, I learned how to quickly switch between tasks;

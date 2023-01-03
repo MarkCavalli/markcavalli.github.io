@@ -16,8 +16,8 @@ export default () => {
                 For example, I implemented a user reputation bar that changed color at different levels (0 - 100, 100 - 500, etc.).
             </p>
             <p className={styles.p}>
-                Gradually the website traffic grew, in the best months the daily number of visitors was about 2000. At that time, my monthly advertising income was about $100 (in 2011).
-                Unfortunately, I got too carried away with adding ads, and after a while the search engines started removing the website pages from the search results.
+                The website traffic grew, in the best months the daily number of visitors was about 2000. At that time, my monthly advertising income was about $100 (in 2011).
+                Unfortunately, I got too carried away with adding ads, and after a while, the search engines started removing the website pages from the search results.
             </p>
         </div>
     )
